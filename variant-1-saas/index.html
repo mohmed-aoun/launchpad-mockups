@@ -6,36 +6,15 @@
   <title>Variant 1 — SaaS Layout</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-  <body class="bg-[#F8FAFC] text-[#0f172a]">
-    <div class="min-h-screen flex flex-col">
-      <!-- HERO SECTION -->
-      <header class="bg-white">
-        <div class="max-w-6xl mx-auto px-6 pt-10 pb-2 flex items-center justify-between">
-          <div class="flex items-center gap-3">
-            <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-white border border-slate-100 shadow-sm">
-              <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-10 h-10">
-                <path d="M10 100L60 15l50 85H10z" fill="#18355A" />
-                <path d="M22 94L60 30l38 64H22z" fill="#ffffff" />
-                <path d="M60 70l34 24H32l28-24z" fill="#15A7B3" />
-              </svg>
-            </div>
-            <div>
-              <p class="text-lg font-semibold text-[#0f172a]">FlowPeak</p>
-              <p class="text-xs text-[#334155]">Modern SaaS workspace</p>
-            </div>
-          </div>
-          <div class="hidden md:flex items-center gap-4 text-sm text-[#334155]">
-            <a href="#features" class="hover:text-blue-600">Features</a>
-            <a href="#pricing" class="hover:text-blue-600">Pricing</a>
-            <a href="#support" class="hover:text-blue-600">Support</a>
-            <a href="#" class="px-4 py-2 bg-[#3B82F6] text-white rounded-lg shadow-sm hover:bg-blue-600 transition">Sign In</a>
-          </div>
-        </div>
-        <div class="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div class="space-y-6">
-            <p class="inline-flex items-center text-sm font-semibold text-[#334155] bg-slate-100 rounded-full px-3 py-1 shadow-sm">New experience</p>
-            <h1 class="text-4xl lg:text-5xl font-semibold text-[#0f172a] leading-tight">Launch faster with a modern SaaS experience.</h1>
-            <p class="text-lg text-[#334155] max-w-xl">Clean UI, clear messaging, and a frictionless onboarding flow designed to get customers productive in minutes.</p>
+<body class="bg-[#F8FAFC] text-[#0f172a]">
+  <div class="min-h-screen flex flex-col">
+    <!-- HERO SECTION -->
+    <header class="bg-white">
+      <div class="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="space-y-6">
+          <p class="inline-flex items-center text-sm font-semibold text-[#334155] bg-slate-100 rounded-full px-3 py-1 shadow-sm">New experience</p>
+          <h1 class="text-4xl lg:text-5xl font-semibold text-[#0f172a] leading-tight">Launch faster with a modern SaaS experience.</h1>
+          <p class="text-lg text-[#334155] max-w-xl">Clean UI, clear messaging, and a frictionless onboarding flow designed to get customers productive in minutes.</p>
           <div class="flex gap-4">
             <a href="#" class="px-5 py-3 bg-[#3B82F6] text-white font-semibold rounded-lg shadow-lg shadow-blue-200 hover:bg-blue-600 transition">Start Free Trial</a>
             <a href="#" class="px-5 py-3 bg-white text-[#334155] font-semibold rounded-lg border border-slate-200 shadow-sm hover:border-blue-400 transition">Book Demo</a>
@@ -48,14 +27,7 @@
             </div>
           </div>
         </div>
-        <div class="bg-white rounded-2xl shadow-xl shadow-slate-200 border border-slate-100 p-6 relative overflow-hidden">
-          <div class="absolute right-6 top-6 opacity-20">
-            <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-10 h-10">
-              <path d="M10 100L60 15l50 85H10z" fill="#18355A" />
-              <path d="M22 94L60 30l38 64H22z" fill="#ffffff" />
-              <path d="M60 70l34 24H32l28-24z" fill="#15A7B3" />
-            </svg>
-          </div>
+        <div class="bg-white rounded-2xl shadow-xl shadow-slate-200 border border-slate-100 p-6">
           <div class="flex justify-between items-center mb-4">
             <div>
               <p class="text-sm text-[#334155]">Dashboard</p>
@@ -91,7 +63,7 @@
     </header>
 
     <!-- FEATURES GRID -->
-    <section id="features" class="bg-white border-y border-slate-100">
+    <section class="bg-white border-y border-slate-100">
       <div class="max-w-6xl mx-auto px-6 py-16">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="flex gap-4 items-start bg-slate-50 rounded-xl p-5 shadow-sm">
@@ -183,7 +155,7 @@
     </section>
 
     <!-- PRICING PREVIEW -->
-    <section id="pricing" class="bg-[#F8FAFC]">
+    <section class="bg-[#F8FAFC]">
       <div class="max-w-6xl mx-auto px-6 py-16">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div class="bg-white border border-slate-100 rounded-2xl shadow-md shadow-slate-200 p-6">
@@ -219,7 +191,7 @@
     </section>
 
     <!-- FINAL CTA SECTION -->
-    <section id="support" class="bg-gradient-to-r from-blue-500 to-blue-600 text-white">
+    <section class="bg-gradient-to-r from-blue-500 to-blue-600 text-white">
       <div class="max-w-6xl mx-auto px-6 py-14 flex flex-col lg:flex-row items-center justify-between gap-6">
         <div>
           <p class="text-sm font-semibold uppercase tracking-wide text-blue-100">Momentum</p>
@@ -233,7 +205,7 @@
     <!-- FOOTER -->
     <footer class="bg-white">
       <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col lg:flex-row items-center justify-between gap-4 text-sm text-[#334155]">
-        <p class="text-[#0f172a] font-semibold">FlowPeak</p>
+        <p class="text-[#0f172a] font-semibold">SaaS Modern</p>
         <div class="flex gap-6">
           <a href="#" class="hover:text-blue-600">Product</a>
           <a href="#" class="hover:text-blue-600">Security</a>
